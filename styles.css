@@ -1,0 +1,40 @@
+td {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 155px;
+  top: 50px;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+.endgame {
+  display: none;
+  position: absolute;
+  top: 130px;
+  left: 185px;
+  width: 250px;
+  height: 150px;
+  opacity: 0.7;
+  border-radius: 15px;
+  background-color: coral;
+}
