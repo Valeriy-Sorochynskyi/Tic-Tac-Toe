@@ -4,13 +4,16 @@ td {
   width: 100px;
   text-align: center;
   vertical-align: middle;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 65px;
   cursor: pointer;
 }
 
 table {
   border-collapse: collapse;
   position: absolute;
-  left: 155px;
+  left: 90px;
   top: 50px;
 }
 
@@ -31,10 +34,36 @@ table tr td:last-child {
   display: none;
   position: absolute;
   top: 130px;
-  left: 185px;
+  left: 120px;
   width: 250px;
   height: 150px;
-  opacity: 0.7;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 1;
   border-radius: 15px;
   background-color: coral;
+}
+.container {
+  position: relative;
+  background-color: darkgray;
+  height: 450px;
+  width: 500px;
+  border-radius: 15px;
+  margin-left: 50%;
+  left: -250px;
+}
+#restart {
+  position: absolute;
+  top: 380px;
+  left: 195px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(194, 200, 201);
+}
+.text{
+  margin-top: 30px;
 }
